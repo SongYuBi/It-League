@@ -77,7 +77,7 @@
          <div class= "loginBtns" id="bar"><label>|</label></div>
          <div class= "loginBtns" id="memberJoinBtn" onclick="memberJoin();"><label> 회원가입</label> </div>
       </div>
-   </div>
+   </div> 
    <br clear="both"> 
 </header>
 <br><br> 
