@@ -1,6 +1,8 @@
 package com.kh.semi.league.vo;
 
-public class Match_Result_vo {
+import java.io.Serializable;
+
+public class Match_Result_vo implements Serializable{
 
 	private int ResId;						//경기 결과 고유 번호(PK)
 	private String resWin;					//승

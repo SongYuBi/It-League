@@ -1,6 +1,8 @@
 package com.kh.semi.league.vo;
 
-public class Person_Record_vo {
+import java.io.Serializable;
+
+public class Person_Record_vo implements Serializable{
 
 	private int prId;					//개인 기록 고유 번호(PK)
 	private int resId;					//경기결과 고유번호(FK)

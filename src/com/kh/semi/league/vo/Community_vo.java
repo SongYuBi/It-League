@@ -1,8 +1,9 @@
 package com.kh.semi.league.vo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Community_vo {
+public class Community_vo implements Serializable{
 
 	private int commId;						//게시글 번호(PK)
 	private String commTitle;				//제목

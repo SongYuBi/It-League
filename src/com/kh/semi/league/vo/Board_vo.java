@@ -1,8 +1,9 @@
 package com.kh.semi.league.vo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Board_vo {
+public class Board_vo implements Serializable{
 
 	private int bid;						//게시판 분류 번호)PK_
 	private int bType;						//게시판 분류

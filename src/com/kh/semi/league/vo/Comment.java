@@ -1,8 +1,9 @@
 package com.kh.semi.league.vo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Comment {
+public class Comment implements Serializable{
 
 	private int mentID;							//댓글 고유 번호 (PK)
 	private int commId;							//게시슬 고유 번호(FK)
