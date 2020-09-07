@@ -10,5 +10,6 @@ pageEncoding="UTF-8"/>
 </head>
 <body>
 		<jsp:include page="views/user/mainPage/mainPage.jsp"/>
+
 </body>
 </html>
