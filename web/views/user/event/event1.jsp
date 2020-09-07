@@ -1,13 +1,25 @@
-<jsp:directive.page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"/>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<<!DOCTYPE html>
-<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+	#default-div {
+		display:grid;
+		grid-template-columns: 1fr 3fr 1fr;
+		grid-gap :10px;
+		height:100%
+		
+	}
+	
+	@media (max-width: 100px){
+		#default-div {
+			display: block;
+		}
+	}
+	
    #headWrapper {
       width:100%;
    }
@@ -52,8 +64,7 @@
    background-color:#111B39;
 }
 
-
-    </style>
+</style>
 </head>
 <header>
    <br><br>
@@ -69,12 +80,18 @@
    </div>
    <br clear="both"> 
 </header>
-    
 <br><br> 
-
+ 
 <hr style="height: 3px; background: black;">
-  <body>
-  <div class="wrap" align="center">
+<body>
+	<jsp:include page="../../common/sideBar.jsp"></jsp:include>
+	
+	<div id="default-div">
+		<div class="box1">
+			
+		</div>
+		<div class="box2">
+			 <div class="wrap" align="center">
         <div class="nav" >
            <div class="menu" style="font-weight:900; font-size: 50px ; margin:0 auto ; margin-top:40px "> 이벤트</div>
              <div class="maintext" style="line-height: 160px; margin-left:30px; font-size: 25px; font-weight: 600; color:#707070" > 풍성한 이벤트 ! 즐거운 잇츠리그</div>
@@ -101,4 +118,12 @@
      <img src="/semi/resources/image/chu/footer.png" width="1500px" height="500px">
    </div>
 </footer>
+			
+		</div>
+		<div class="box3">
+		
+		</div>
+	</div>
+	
+</body>
 </html>

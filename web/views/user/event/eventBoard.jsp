@@ -1,14 +1,24 @@
-<jsp:directive.page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"/>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style>
-
+	#default-div {
+		display:grid;
+		grid-template-columns: 1fr 3fr 1fr;
+		grid-gap :10px;
+		height:100%
+		
+	}
+	
+	@media (max-width: 100px){
+		#default-div {
+			display: block;
+		}
+	}
    #headWrapper {
       width:100%;
    }
@@ -58,12 +68,10 @@ pageEncoding="UTF-8"/>
    height: 500px;
    background-color:#111B39;
 }
-
-
-
+	
 </style>
 </head>
-   <header>
+<header>
       <br><br>
       <div id="headWrapper" align="center">
          <div id="logo">
@@ -81,8 +89,14 @@ pageEncoding="UTF-8"/>
     <br><br>
 
     <hr style="height: 3px; background: black;">
-    <body>
-    <div class="wrap" align="center">
+<body>
+	<jsp:include page="../../common/sideBar.jsp"></jsp:include>
+	<div id="default-div">
+		<div class="box1">
+		
+		</div>
+		<div class="box2">
+				<div class="wrap" align="center">
           <div class="nav" >
              <div class="menu" style="font-weight:900; font-size: 50px ; margin:0 auto ; margin-top:40px "> 이벤트</div>
                <div class="maintext" style="line-height: 160px; margin-left:30px; font-size: 25px; font-weight: 600; color:#707070" > 풍성한 이벤트 ! 즐거운 잇츠리그</div>
@@ -93,8 +107,7 @@ pageEncoding="UTF-8"/>
 
     <hr width="1440px" style="margin-top: -40px;">
    <br>
-   
-       <div class ="eventwrap">
+   <div class ="eventwrap">
          <a href="event1.jsp">
       <div id="event1" align="center">
         <img id="img1" src="/semi/resources/image/chu/eventchulcheck.jpg">
@@ -145,5 +158,15 @@ pageEncoding="UTF-8"/>
          <img src="/semi/resources/image/chu/footer.png" width="1500px" height="500px">
        </div>
     </footer>
-
+   
+			
+			
+			
+		</div>
+		<div class="box3">
+			
+		</div>
+	</div>
+	
+</body>
 </html>
