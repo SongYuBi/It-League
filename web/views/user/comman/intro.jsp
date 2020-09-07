@@ -104,24 +104,28 @@ pageEncoding="UTF-8"/>
 
 <body>
 
+	<jsp:include page="../../common/sideBar.jsp"/>
 	<br>
 	<br>
 <div class="logo" align="center">
 	<!-- <h4 align="center">It's LEAGUE</h4> -->
-	<img alt="" src="imgs/logo.png" style="width:20%">
+<!-- 	<img alt="" src="imgs/logo.png" style="width:20%"> -->
+	
+	<img alt="" src="../../../resources/image/logo_jess.png" style="width:20%">
 </div>
 	
 	<br>
 	<nav>
-<div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-    </div>
+
     </nav>
     <br>
     <div class="row">
-    	<img alt="" src="imgs/main1.png" style="width:100%">
+    
+    
+    	
+    	<!-- <img alt="" src="../../../resources/image/main2_jess.png" style="width:100%"> -->
+    	
+    	<img alt="" src="../../../resources/image/main1_jess.png" style="width:100%">
     </div>
 	<br>
 	<br>
@@ -152,7 +156,10 @@ pageEncoding="UTF-8"/>
 		
 		
 	  <div class="row1">
-    	<img alt="" src="imgs/main2.png" style="width:100%">
+	  
+    	<!-- <img alt="" src="image/main2_jess.png" style="width:100%"> -->
+    	<img alt="" src="../../../resources/image/main2_jess.png" style="width:100%">
+    	
     </div>
 	 
 	 
@@ -192,7 +199,8 @@ pageEncoding="UTF-8"/>
 	 
 	 
 	 <div class="footer">
-	 	<img alt="" src="imgs/footer.png" style="width:100%">
+	 	<!-- <img alt="" src="imgs/footer.png" style="width:100%"> -->
+	 	<img alt="" src="../../../resources/image/footer_jess.png" style="width:100%">
 	 </div>
 </div>
       

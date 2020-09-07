@@ -61,7 +61,9 @@
 </style>
  </head>
 <body>
-	<jsp:include page="../common/adminSideBar.jsp"></jsp:include>
+	
+	<jsp:include page="../../common/sideBar.jsp"/>
+	
 	<div id="default-div">
 	<div>
 		<!-- <h1>영역1</h1> -->
