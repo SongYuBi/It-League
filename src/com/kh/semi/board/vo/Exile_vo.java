@@ -3,14 +3,14 @@ package com.kh.semi.board.vo;
 import java.sql.Date;
 
 public class Exile_vo implements java.io.Serializable {
-	private int exileId;
-	private Date exileDate;
-	private String exileReason;
-	private String exileType;
-	private int pfId;
-	private String exileStatus;
+	private int exileId;				//사용자탈퇴 및 추방 번
+	private Date exileDate;				//등록일자
+	private String exileReason;			//사유
+	private String exileType;			//탈퇴구분
+	private int pfId;					//사용자 고유 번호
+	private String exileStatus;			//탈퇴여부
 	
-	Exile_vo () {}
+	public Exile_vo () {}
 
 	public Exile_vo(int exileId, Date exileDate, String exileReason, String exileType, int pfId, String exileStatus) {
 		super();

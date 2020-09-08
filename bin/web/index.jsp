@@ -9,6 +9,7 @@ pageEncoding="UTF-8"/>
 <title>Insert title here</title>
 </head>
 <body>
+		<jsp:include page="views/user/mainPage/mainPage.jsp"/>
 
 </body>
 </html>

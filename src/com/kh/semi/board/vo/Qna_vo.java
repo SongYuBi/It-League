@@ -1,11 +1,11 @@
 package com.kh.semi.board.vo;
 
 public class Qna_vo implements java.io.Serializable {
-	private int qnaId;
-	private int bid;
-	private String qnaItems;
+	private int qnaId;					//QnA 게시판 고유번호
+	private int bid;					//게시판 분류 번호
+	private String qnaItems;			//게시판 분류
 	
-	Qna_vo () {}
+	public Qna_vo () {}
 
 	public Qna_vo(int qnaId, int bid, String qanItems) {
 		super();

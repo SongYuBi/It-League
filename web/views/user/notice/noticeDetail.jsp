@@ -32,7 +32,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:include page="${ application.getContextPath() }/views/common/refereeSideBar.jsp"></jsp:include>
+	<jsp:include page="${ application.getContextPath() }/views/common/sideBar.jsp"></jsp:include>
 	<div class="scontA   ">
 		<div class="bbsTopArea"></div>
 

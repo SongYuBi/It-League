@@ -1,10 +1,10 @@
 package com.kh.semi.board.vo;
 
 public class Event_vo implements java.io.Serializable {
-	private int eventId;
-	private int bid;
+	private int eventId;              //이벤트ID
+	private int bid;				  //게시판 분류 번호
 
-	Event_vo () {}
+	public Event_vo () {}
 
 	public Event_vo(int eventId, int bid) {
 		super();

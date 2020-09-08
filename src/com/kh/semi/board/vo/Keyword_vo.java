@@ -1,12 +1,12 @@
 package com.kh.semi.board.vo;
 
 public class Keyword_vo implements java.io.Serializable {
-	private int keywordId;
-	private String keywordTitle;
-	private String keywordContent;
-	private int qnaId;
+	private int keywordId;					//키워드테이블 고유 번호
+	private String keywordTitle;			//제목
+	private String keywordContent;			//내용
+	private int qnaId;						//QnA게시판 고유번호
 	
-	Keyword_vo () {}
+	public Keyword_vo () {}
 
 	public Keyword_vo(int keywordId, String keywordTitle, String keywordContent, int qnaId) {
 		super();

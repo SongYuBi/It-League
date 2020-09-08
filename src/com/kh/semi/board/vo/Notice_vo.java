@@ -1,10 +1,10 @@
 package com.kh.semi.board.vo;
 
 public class Notice_vo implements java.io.Serializable {
-	private int noitceId;
-	private int bid;
+	private int noitceId;				//공지사항ID
+	private int bid;					//게시판 분류 번호
 	
-	Notice_vo () {}
+	public Notice_vo () {}
 
 	public Notice_vo(int noitceId, int bid) {
 		super();
